@@ -131,10 +131,10 @@ class _HomeState extends State<Home> {
                   ),
                 ),
                 const SizedBox(height: 10),
-               _buildProjectTile("Cape Town Solar Park", "Cape Town, Western Cape"),
+      
 _buildProjectTile("Johannesburg Renewable Hub", "Johannesburg, Gauteng"),
 _buildProjectTile("Durban Solar Initiative", "Durban, KwaZulu-Natal"),
-_buildProjectTile("Port Elizabeth Wind Farm", "Port Elizabeth, Eastern Cape"),
+
 
 
               ],
