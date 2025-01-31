@@ -2,6 +2,7 @@ import 'package:connect/pages/Create_page.dart';
 import 'package:connect/pages/Project.dart';
 import 'package:connect/pages/community.dart';
 import 'package:connect/pages/learning.dart';
+import 'package:connect/pages/news.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -54,7 +55,10 @@ class _HomeState extends State<Home> {
                     "Stay updated with the community",
                     Colors.green,
                     Icons.article,
-                    () {}, // Empty callback to avoid errors
+                    () {Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) =>NewsPage()),
+                        );}, // Empty callback to avoid errors
                   ),
                 ),
                 Row(

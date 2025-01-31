@@ -67,7 +67,7 @@ class _CommunityPageState extends State<CommunityPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF111827), // bg-gray-900
+      backgroundColor: Color.fromARGB(255, 164, 187, 231), // bg-gray-900
       body: SafeArea(
         child: SingleChildScrollView(  // Added to handle potential overflow
           child: Column(

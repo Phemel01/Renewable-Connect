@@ -61,7 +61,7 @@ class _ProjectsState extends State<Projects> {
           ),
         ],
       ),
-      backgroundColor:  Colors.lightBlue.withOpacity(0.1),
+      backgroundColor: Color.fromARGB(255, 164, 187, 231) ,
       body: ListView.builder(
         padding: const EdgeInsets.all(10),
         itemCount: projects.length,

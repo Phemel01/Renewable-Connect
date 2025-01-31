@@ -64,6 +64,17 @@ class LearningPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Learning Center', style: TextStyle(fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,),
+       
+        
+        ),
+        backgroundColor:  Color(0xFF1F2937),
+        
+        
+        ),
       backgroundColor: const Color.fromARGB(255, 164, 187, 231), // bg-gray-900
       body: SafeArea(
         child: SingleChildScrollView(
@@ -72,14 +83,11 @@ class LearningPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'Learning Center',
-                  style: TextStyle(
-                    fontSize: 24,
+                Text('Welcome', style: TextStyle(fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
+                    color: Colors.white,),),
+
+                
                 const SizedBox(height: 24),
 
                 // In-demand Courses
